@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.redcraft86.betterendfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "betterendfix.refmap.json",
+  "plugin": "com.redcraft86.betterendfix.mixin.MixinPlugin",
+  "mixins": [
+    "BlueprintMixin",
+    "LionfishMixin"
+  ],
+  "minVersion": "0.8"
+}

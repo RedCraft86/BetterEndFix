@@ -1,0 +1,55 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "biome_source": {
+          "preset": "minecraft:overworld",
+          "type": "minecraft:multi_noise"
+        },
+        "settings": "minecraft:large_biomes",
+        "type": "minecraft:noise"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "biome_source": {
+          "seed": 0,
+          "config": {
+            "center_biomes_size": 256,
+            "void_biomes_size": 512,
+            "land_biomes_size": 1024,
+            "barrens_biomes_size": 512,
+            "map_type": "hex",
+            "generator_version": "paulevs",
+            "with_void_biomes": true,
+            "inner_void_radius_squared": 1048576
+          },
+          "type": "bclib:end_biome_source"
+        },
+        "settings": "minecraft:end",
+        "type": "bclib:betterx"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "biome_source": {
+          "seed": 0,
+          "config": {
+            "biome_size_vertical": 172,
+            "use_vertical_biomes": true,
+            "amplified": false,
+            "map_type": "hex",
+            "biome_size": 1024
+          },
+          "type": "bclib:nether_biome_source"
+        },
+        "settings": "minecraft:nether",
+        "type": "bclib:betterx"
+      }
+    }
+  },
+  "sort_order": 1000
+}

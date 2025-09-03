@@ -1,0 +1,1 @@
+Fixes the Better End generation when used through Connector with mods like Blueprint or LionfishAPI by disabling their weird injections onto BE's config.
