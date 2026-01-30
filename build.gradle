@@ -81,8 +81,9 @@ dependencies {
     // implementation fg.deobf("curse.maven:jei-238222:6075247")
     // implementation fg.deobf("maven.modrinth:tag-tooltips:OFBFNuzP")
     // implementation fg.deobf("curse.maven:config-menus-forge-544048:4672356")
-
-    implementation fg.deobf("curse.maven:blueprint-382216:6408581")
+    implementation fg.deobf("curse.maven:bclib-forge-1435106:7537360")
+    implementation fg.deobf("curse.maven:wunderlib-forge-1435097:7486522")
+    implementation fg.deobf("curse.maven:betterend-forge-1435127:7537240")
     implementation fg.deobf("curse.maven:lionfish-api-1001614:5922047")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
