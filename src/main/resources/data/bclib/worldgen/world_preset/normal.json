@@ -3,53 +3,52 @@
     "minecraft:overworld": {
       "type": "minecraft:overworld",
       "generator": {
+        "type": "minecraft:noise",
         "biome_source": {
-          "preset": "minecraft:overworld",
-          "type": "minecraft:multi_noise"
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:overworld"
         },
-        "settings": "minecraft:overworld",
-        "type": "minecraft:noise"
+        "settings": "minecraft:overworld"
       }
     },
     "minecraft:the_end": {
       "type": "minecraft:the_end",
       "generator": {
+        "type": "bclib:betterx",
         "biome_source": {
-          "seed": 0,
+          "type": "bclib:end_biome_source",
           "config": {
-            "center_biomes_size": 256,
-            "void_biomes_size": 256,
-            "land_biomes_size": 256,
             "barrens_biomes_size": 256,
-            "map_type": "hex",
+            "center_biomes_size": 256,
             "generator_version": "paulevs",
-            "with_void_biomes": true,
-            "inner_void_radius_squared": 1048576
+            "inner_void_radius_squared": 1048576,
+            "land_biomes_size": 256,
+            "map_type": "hex",
+            "void_biomes_size": 256,
+            "with_void_biomes": true
           },
-          "type": "bclib:end_biome_source"
+          "seed": 0
         },
-        "settings": "minecraft:end",
-        "type": "bclib:betterx"
+        "settings": "minecraft:end"
       }
     },
     "minecraft:the_nether": {
       "type": "minecraft:the_nether",
       "generator": {
+        "type": "bclib:betterx",
         "biome_source": {
-          "seed": 0,
+          "type": "bclib:nether_biome_source",
           "config": {
-            "biome_size_vertical": 86,
-            "use_vertical_biomes": true,
             "amplified": false,
+            "biome_size": 256,
+            "biome_size_vertical": 86,
             "map_type": "hex",
-            "biome_size": 256
+            "use_vertical_biomes": true
           },
-          "type": "bclib:nether_biome_source"
+          "seed": 0
         },
-        "settings": "minecraft:nether",
-        "type": "bclib:betterx"
+        "settings": "minecraft:nether"
       }
     }
-  },
-  "sort_order": 1000
+  }
 }
