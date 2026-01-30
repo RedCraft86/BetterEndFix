@@ -41,9 +41,9 @@ side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="lionfishapi"
-mandatory=false
+mandatory=true
 versionRange="*"
-ordering="BEFORE"
+ordering="AFTER"
 side="BOTH"
 
 [modproperties.${mod_id}]
