@@ -33,10 +33,10 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
-modId="lionfishapi"
-mandatory=false
-versionRange="*"
-ordering="BEFORE"
+modId="betterend"
+mandatory=true
+versionRange="[20.0.1,)"
+ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
